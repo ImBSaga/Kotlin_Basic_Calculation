@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2FD8D8"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Luas"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/et_luasPanjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Panjang"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/et_luasLebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lebar"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_calculateLuas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/tv_luasResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#2FD8D8"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="2dp"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Volume"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/et_volumePanjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Panjang"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_volumeLebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lebar"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_volumeTinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tinggi"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_calculateVolume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/tv_volumeResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Task 3</string>
+    <string name="title_activity_home">Home</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string-array name="sat_panjang">
+
+        <item>Kilometer [KM]</item>
+
+        <item>Hektometer [HM]</item>
+        <item>Dekameter [DAM]</item>
+        <item>Meter [M]</item>
+
+        <item>Desimeter [DM]</item>
+        <item>Centimeter [CM]</item>
+        <item>Millimeter [MM]</item>
+
+    </string-array>
+
+    <string-array name="kon_sat_panjang">
+
+        <item>Millimeter [MM]</item>
+        <item>Centimeter [CM]</item>
+        <item>Desimeter [DM]</item>
+        <item>Meter [M]</item>
+        <item>Dekameter [DAM]</item>
+        <item>Hektometer [HM]</item>
+        <item>Kilometer [KM]</item>
+
+    </string-array>
+</resources>
